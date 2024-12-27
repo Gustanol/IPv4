@@ -82,8 +82,8 @@ while a:
     print("Máscara de sub-rede inválida!")
 ip_cidr = cidr(ipv4_1, sn)
 values = [] # Quantidade de hosts
-values1 = [] # Conversão da quantidade de hosts para potêcias de dois
-values2 = [] # Endereço IP para cada sub-rede
+values1 = [] # Conversão da quantidade de hosts para potências de dois
+values2 = [] # Endereços IP para cada sub-rede
 values3 = [] # Comprimento do prefixo para cada sub-rede
 values2.append(ipv4_1)
 address = 2**(32 - sn)
